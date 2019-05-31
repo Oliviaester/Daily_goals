@@ -1,0 +1,88 @@
+
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+body {
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+  padding: .45em 2.65em 3em;
+  line-height: 1.5;
+}
+h1 {
+  margin-bottom: 0;
+}
+h1 + p {
+  font-size: 1.08em;
+  color: #637a91;
+  margin-top: .5em;
+  margin-bottom: 1em;
+  padding-bottom: 1.325em;
+  border-bottom: 1px dotted;
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: .45em .5em;
+  margin-bottom: .35em;
+  display: flex;
+  align-items: center;
+}
+input,
+button {
+  font-size: .85em;
+  padding: .65em 1em;
+  border-radius: .3em;
+  outline: 0;
+}
+input {
+  border: 1px solid #dcdcdc;
+  margin-right: 1em;
+}
+.list {
+  padding: 0 0 .5em;
+  max-width: 750px;
+}
+.button-div{
+    display: inline-block;
+    margin-left: auto;
+}
+/* Buttons */
+button {
+  color: white;
+  background: #508abc;
+  border: solid 1px;
+  border-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+.button-div button:nth-child(2), li button:nth-child(3), li button:nth-child(4){
+  margin-left: .5em;
+}
+.up{
+  background: #52bab3;
+}
+.down{
+  background: #508abc;
+}
+.completed{
+  background: #768da3;
+}
+.remove{
+    background: rgb(255, 123, 123);
+}
+li button {
+  font-size: .75em;
+  padding: .5em .65em;
+}
+#date-span{
+    font-weight: bold;
+}
+
+button:disabled, button[disabled]{
+    background-color: #cccccc;
+}
+
+.time-span{
+    margin-left: 1em;
+    font-size: 0.75em;
+}

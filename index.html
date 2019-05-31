@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Daily Goals</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/ico" href="./star_icon.png" />
+  </head>
+  <body>
+    <h1 id="myHeading">Daily Goals</h1>
+    <p>Today is: <span id="date-span"></span></p>
+    <div class="list">
+      <p class="description"><span id="goal-summary">You have completed <span id="completed-span">0</span>/<span id="total-span">3</span> goals. (<span id="percentage">0</span>%)</span><br/>Add goals for today:</p>
+      <input type="text" class="add-input">
+      <button class="add-button">Add Goal</button>
+      <ul>
+        <li>Finish the project</li>
+        <li>Drink water</li>
+        <li>Go to the gym</li>
+      </ul>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
